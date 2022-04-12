@@ -68,7 +68,8 @@ animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-
+favoriteFoods.unshift('cookies');
+console.log(`Added cookie to beginning: ${favoriteFoods}`);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
@@ -77,6 +78,9 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
+removedFoods = favoriteFoods.shift();
+console.log('removed the first food', removedFoods);
+console.log('The foods are now', favoriteFoods);
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
